@@ -235,6 +235,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <ExternalWarningLevel>Level4</ExternalWarningLevel>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -338,6 +341,7 @@
     <ClCompile Include="DirectXTexCompressGPU.cpp" />
     <ClCompile Include="DirectXTexConvert.cpp" />
     <ClCompile Include="DirectXTexD3D11.cpp" />
+    <ClCompile Include="DirectXTexD3D12.cpp" />
     <ClCompile Include="DirectXTexDDS.cpp" />
     <ClCompile Include="DirectXTexFlipRotate.cpp" />
     <ClCompile Include="DirectXTexHDR.cpp" />

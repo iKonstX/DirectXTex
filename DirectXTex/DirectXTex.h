@@ -16,6 +16,8 @@
 #include <functional>
 #include <utility>
 #include <vector>
+#include <d3d12.h>
+
 
 #if defined(WIN32) || defined(_WIN32)
 #if !defined(__d3d11_h__) && !defined(__d3d11_x_h__) && !defined(__d3d12_h__) && !defined(__d3d12_x_h__) && !defined(__XBOX_D3D12_X__)
